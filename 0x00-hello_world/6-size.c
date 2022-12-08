@@ -2,11 +2,6 @@
 
 /**
  * main - Entry point
- * @chartType: character
- * @intType: integer
- * @longType: long integer
- * @longerType: long long integer
- * @floatType: float
  *
  * Description: Prints the size of data types depending on where it is compiled
  * Return: 0 (Success)
