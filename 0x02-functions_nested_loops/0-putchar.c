@@ -19,7 +19,7 @@ int main(void)
 		char str = c[i];
 
 		_putchar(str);
-		i++
+		i++;
 	}
 	return (0);
 }
