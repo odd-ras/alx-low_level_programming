@@ -2,8 +2,8 @@
 
 /**
  * main - main entry
- * Description: Prints sum of multiples of 
- * 3 and 5 below 1024
+ * Description: Prints sum of multiples of
+ * of 3 and 5 below 1024
  * Return: void
  */
 int main(void)
