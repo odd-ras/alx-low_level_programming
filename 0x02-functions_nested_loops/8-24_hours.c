@@ -7,7 +7,6 @@
  * Return: time in 24 hours
  */
 void jack_bauer(void)
-void jack_bauer(void)
 {
 
 int h1;
