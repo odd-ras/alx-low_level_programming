@@ -3,12 +3,12 @@
 
 /**
  * _abs - main entry
- * @int: an integer
+ * @x: an integer
  * Description: computes absolute value of
  * an integer
  * Return: 0
  */
-int _abs(int)
+int _abs(int x)
 {
 	int x = abs(int);
 
