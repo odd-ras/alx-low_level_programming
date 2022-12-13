@@ -9,15 +9,18 @@
  */
 void print_alphabet_x10(void)
 {
-	char letter = 'a';
-	int i;
+	char c;
+	int i = 0;
 
-	for (i = 0; i < 10; i++)
+	while (i <= 9)
 	{
-		while (letter <= 'z')
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(letter);
+			_putchar(c);
 		}
+
 		_putchar('\n');
+
+		i++;
 	}
 }
