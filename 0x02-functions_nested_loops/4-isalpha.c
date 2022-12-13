@@ -7,16 +7,20 @@
  * Description: checks for alphanumeric characters
  * Returns 1 if c is a letter
  * Returns 0 otherwise
+ * Return: 1 or 0
  */
 int _isalpha(int c)
 {
-	if (isalpha(c) == 0)
+	if (c >= 'a' && c <= 'z')
 	{
-		_putchar('1');
+	return (1);
+	}
+	else if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
 	}
 	else
 	{
-		_putchar('0')
+		return (0);
 	}
-	return (0);
 }
