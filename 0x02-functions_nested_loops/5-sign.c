@@ -2,6 +2,7 @@
 
 /**
  * print_sign - main entry
+ * @n: integer
  * Description: Prints the sign of a number
  * Returns 1 and prints + if positive number
  * Returns 0 and prints 0 if zero
