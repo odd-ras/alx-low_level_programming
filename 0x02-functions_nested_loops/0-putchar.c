@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,11 +11,11 @@
 
 int main(void)
 {
-	char c[] = "_putchar";
+	char x[] = "_putchar\n";
 
-	for (int i = 0; i < sizeof(c); i++)
+	for (int i = 0; i < sizeof(x); i++)
 	{
-		_putchar(c[i]);
+		_putchar(x[i]);
 	}
 
 	return (0);
