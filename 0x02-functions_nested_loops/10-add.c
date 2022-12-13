@@ -2,18 +2,16 @@
 
 /**
  * add - main entry
- * @int: integer values
+ * @x: integer 1
+ * @y: integer 2
  * Description: adds two integers and
  * returns the result
  *
  * Return: sum
  */
-int add(int, int)
+int add(int x, int y)
 {
-	int x, y;
-	int sum = 0;
-
-	sum = x + y;
+	int sum = x + y;
 
 	return (sum);
 }
