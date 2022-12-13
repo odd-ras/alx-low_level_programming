@@ -6,18 +6,17 @@
  * Description: print a string of characters followe by a new line
  *
  *
- * Return: 0
+ * Return: void
  */
 
 int main(void)
 {
 	char x[] = "_putchar\n";
+	int i;
 
-	for (int i = 0; i < sizeof(x); i++)
+	for (i = 0; i < sizeof(x); i++)
 	{
 		_putchar(x[i]);
 	}
-
-	return (0);
 }
 
