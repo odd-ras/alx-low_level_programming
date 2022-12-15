@@ -2,9 +2,7 @@
 
 /**
  * more_numbers - prints 10 times the numbers 0 - 14
- * @i: iterable
- * @j: iterable
- * Return: 0
+ * Return: void
  */
 void more_numbers(void)
 {
