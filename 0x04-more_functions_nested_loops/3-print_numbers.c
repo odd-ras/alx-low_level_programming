@@ -3,16 +3,18 @@
 /**
  * print_numbers - prints numbers 0 to 9
  * followed by a new line
- * Return: void
+ * Return: 0
  */
 void print_numbers(void)
 {
-	char i = 0;
+	char n = 0;
 
-	while (i < 10)
+	while (n <= 9)
 	{
-		_putchar(i + '0');
-		i++;
+		_putchar('0' + n);
+		n++;
+
 	}
 	_putchar('\n');
+
 }
