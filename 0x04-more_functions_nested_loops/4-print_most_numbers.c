@@ -9,16 +9,27 @@
  */
 void print_most_numbers(void)
 {
-	char i = 0;
+	char n, c;
+	int i = 0;
 
-	while (i <= 9)
+
+	while (i < 10)
 	{
-		if (i != 4 && i != 2)
+		for (n = 0; n <= 14; n++)
 		{
-			_putchar(i + '0');
+			c = n;
+			if (n > 9)
+			{
+				_putchar('1');
+				c = n % 10;
+			}
+
+			_putchar('0' + c);
 		}
+
+		_putchar('\n');
 		i++;
 	}
-	_putchar('\n');
+
 }
 
