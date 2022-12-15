@@ -7,20 +7,20 @@
  */
 void print_diagonal(int n)
 {
-	int i = 0, j;
+	int i = 0, ii;
 
 	while (i < n && n > 0)
 	{
-		j = 0;
-		while (j < i)
+		ii = 0;
+		while (ii < i)
 		{
 			_putchar(' ');
-			j++;
+			ii++;
 		}
 
 		_putchar('\\');
 		_putchar('\n');
-		j++;
+		ii++;
 	}
 	if (i == 0)
 		_putchar('\n');
