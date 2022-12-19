@@ -2,8 +2,8 @@
 
 /**
  * *_strcpy - copies string
- * dest: destination pointer
- * src: source pointer
+ * @dest: destination pointer
+ * @src: source pointer
  * Return: void
  */
 char *_strcpy(char *dest, char *src)
