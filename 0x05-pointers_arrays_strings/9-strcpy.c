@@ -4,12 +4,13 @@
  * *_strcpy - copies string
  * *dest: destination pointer
  * *src: source pointer
+ * Return: void
  */
 char *_strcpy(char *dest, char *src)
 {
 	int j = -1;
 
-	do{
+	do {
 		j++;
 		dest[j] = src[j];
 	} while (src[j] != '\0');
