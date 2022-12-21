@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *strncat - concantenates two strings
+ * *_strncat - concantenates two strings
  * @dest: destination pointer
  * @src: source pointer
  * @n: integer
