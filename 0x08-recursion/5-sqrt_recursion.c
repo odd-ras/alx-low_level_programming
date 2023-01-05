@@ -1,17 +1,6 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - returns natural sqrt
- * @n: int
- * Return: int
- */
-
-int _sqrt_recursion(int n)
-{
-	return (square(n, 1));
-}
-
-/**
  * square - calculates sqr
  * @n: int
  * @val: square root
@@ -29,3 +18,15 @@ int square(int n, int val)
 		return (-1);
 
 }
+
+/**
+ * _sqrt_recursion - retuns natural sqrt
+ * @n: int
+ * Return: int
+ */
+
+int _sqrt_recursion(int n)
+{
+	return (square(n, 1));
+}
+
